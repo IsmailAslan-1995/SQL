@@ -1,0 +1,821 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-25T08:59:31.173Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1057400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 191175100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify the homework second question\u0027s answer with DB",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month;verify-the-homework-second-question-s-answer-with-db;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1422000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24603700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"August\" \"2892\" \"1\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"August\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"2892\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.Q2StepDefinition.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:59:31.433Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1002900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 162677000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify the homework second question\u0027s answer with DB",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month;verify-the-homework-second-question-s-answer-with-db;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 993700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17405400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"February\" \"85\" \"1\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"February\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"85\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.Q2StepDefinition.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:59:31.620Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1009300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 43868900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify the homework second question\u0027s answer with DB",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month;verify-the-homework-second-question-s-answer-with-db;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 496300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15999300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"July\" \"3342\" \"1\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"3342\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Q2StepDefinition.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:59:31.688Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1679600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 148010600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify the homework second question\u0027s answer with DB",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month;verify-the-homework-second-question-s-answer-with-db;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17126500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"June\" \"1163\" \"1\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"June\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"1163\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Q2StepDefinition.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:59:31.867Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31922000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify the homework second question\u0027s answer with DB",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month;verify-the-homework-second-question-s-answer-with-db;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13454100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"May\" \"558\" \"1\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"May\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"558\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.Q2StepDefinition.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:59:31.917Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34948400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify the homework second question\u0027s answer with DB",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month;verify-the-homework-second-question-s-answer-with-db;;7",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14206600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"August\" \"2794\" \"2\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"August\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"2794\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.Q2StepDefinition.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:59:31.970Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 35695200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify the homework second question\u0027s answer with DB",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month;verify-the-homework-second-question-s-answer-with-db;;8",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1136600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15679900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"February\" \"97\" \"2\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"February\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"97\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.Q2StepDefinition.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:59:32.027Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 35246800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify the homework second question\u0027s answer with DB",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month;verify-the-homework-second-question-s-answer-with-db;;9",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15129400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"July\" \"3367\" \"2\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"3367\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Q2StepDefinition.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:59:32.081Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1010500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 143472300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify the homework second question\u0027s answer with DB",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month;verify-the-homework-second-question-s-answer-with-db;;10",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12975700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"June\" \"1148\" \"2\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"June\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"1148\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Q2StepDefinition.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:59:32.241Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 36758000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify the homework second question\u0027s answer with DB",
+        "description": "",
+        "id": "find-the-total-sales-of-each-staff-for-each-month;verify-the-homework-second-question-s-answer-with-db;;11",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15524100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"May\" \"598\" \"2\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"May\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"598\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.Q2StepDefinition.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      }
+    ],
+    "name": "Find the total sales of each staff for each month",
+    "description": "",
+    "id": "find-the-total-sales-of-each-staff-for-each-month",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Question2.feature",
+    "tags": [
+      {
+        "name": "@db",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
