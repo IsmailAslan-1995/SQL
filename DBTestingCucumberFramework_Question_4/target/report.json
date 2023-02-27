@@ -1,0 +1,1299 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-25T08:56:59.167Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 182040700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1001100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2744000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23483700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"44\" \"India\" \"6034.78\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"44\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"India\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"6034.78\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:56:59.427Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31743000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16723000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"23\" \"China\" \"5251.03\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"23\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"China\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"5251.03\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:56:59.484Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 43384700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18266800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"103\" \"United States\" \"3685.31\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"103\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"3685.31\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:56:59.552Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8970000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 37808000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1001200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19428500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"50\" \"Japan\" \"3122.51\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Japan\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"3122.51\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:56:59.624Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 137317200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14985000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"60\" \"Mexico\" \"2984.82\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"60\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Mexico\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"2984.82\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:56:59.780Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34540900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15214500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"15\" \"Brazil\" \"2919.19\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Brazil\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"2919.19\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:56:59.835Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32228600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;8",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15213900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"80\" \"Russian Federation\" \"2765.62\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"80\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Russian Federation\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"2765.62\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:56:59.887Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34511100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;9",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12983100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"75\" \"Philippines\" \"2219.70\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"75\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Philippines\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"2219.70\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:56:59.938Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 38765700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;10",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19145000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"97\" \"Turkey\" \"1498.49\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"97\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Turkey\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"1498.49\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:56:59.999Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 43537700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 1075400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19240800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"45\" \"Indonesia\" \"1352.69\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"45\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Indonesia\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"1352.69\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:57:00.065Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 36283400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;12",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17123000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"69\" \"Nigeria\" \"1314.92\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"69\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Nigeria\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"1314.92\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:57:00.123Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33628100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;13",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15101400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"6\" \"Argentina\" \"1298.80\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Argentina\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"1298.80\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:57:00.177Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34404200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;14",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14376000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"92\" \"Taiwan\" \"1155.10\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"92\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Taiwan\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"1155.10\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:57:00.229Z",
+        "before": [
+          {
+            "result": {
+              "duration": 33900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34368800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;15",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15961400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"85\" \"South Africa\" \"1069.46\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"85\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"South Africa\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"1069.46\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:57:00.284Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 35679800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;16",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14950100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"46\" \"Iran\" \"877.96\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"46\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Iran\"",
+                  "offset": 5
+                },
+                {
+                  "val": "\"877.96\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-25T08:57:00.339Z",
+        "before": [
+          {
+            "result": {
+              "duration": 994600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31474000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify the homework fourth question\u0027s answer with DB",
+        "description": "",
+        "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order);verify-the-homework-fourth-question-s-answer-with-db;;17",
+        "after": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15957500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"102\" \"United Kingdom\" \"850.96\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"102\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"United Kingdom\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"850.96\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.Q4StepDefinitions.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      }
+    ],
+    "name": "Which countries have made higher payments than 800$?(with their payment amount in desc order)",
+    "description": "",
+    "id": "which-countries-have-made-higher-payments-than-800$?(with-their-payment-amount-in-desc-order)",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Question4.feature",
+    "tags": [
+      {
+        "name": "@db",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
