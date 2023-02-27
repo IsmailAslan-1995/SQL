@@ -1,0 +1,104 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-25T08:18:02.115Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2157500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 235506400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUpDBConnection()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify the homework third question\u0027s answer with DB",
+        "description": "",
+        "id": "find-the-exact-address--the-city-and-the-country-of-store-2;verify-the-homework-third-question-s-answer-with-db;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2001300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 986700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDownDBConnection()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13954700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"28 MySQL Boulevard\" \"Woodridge\" \"Australia\" should match with database data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"28 MySQL Boulevard\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Woodridge\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Australia\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.Q3StepDefinition.should_match_with_database_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      }
+    ],
+    "name": "Find the exact address, the city and the country of store 2",
+    "description": "",
+    "id": "find-the-exact-address--the-city-and-the-country-of-store-2",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Question3.feature",
+    "tags": [
+      {
+        "name": "@db",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
